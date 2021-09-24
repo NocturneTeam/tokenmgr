@@ -120,4 +120,12 @@ module.exports = class {
   del(name) {
     this.tokens[name] = null;
   }
+
+  /**
+   * Get a token.
+   * @param {string} name Name of the token.
+   */
+  get(name) {
+    return this.tokens[name];
+  }
 };

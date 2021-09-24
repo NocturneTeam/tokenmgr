@@ -3,8 +3,8 @@
     <img src="https://img.shields.io/badge/npm-available-green?style=for-the-badge">
   </a>
 
-  <a href="https://npmjs.com/package/tokenmgr/versions">
-    <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge">
+  <a href="https://npmjs.com/package/tokenmgr?activeTab=versions">
+    <img src="https://img.shields.io/badge/version-1.0.1-blue?style=for-the-badge">
   </a>
 </div>
 
@@ -56,4 +56,15 @@ tm.store("name", token);
 // You can create a token directly into the 'tm.store()' function.
 tm.store("name", token);
 ```
- 
+
+Delete tokens with the `tm.del()` function.
+
+```js
+tm.del("name");
+```
+
+And get them with the `tm.get()` function.
+
+```js
+tm.get("name");
+```
