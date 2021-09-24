@@ -1,0 +1,23 @@
+{
+  "name": "tokenmgr",
+  "version": "1.0.0",
+  "description": "Create tokens and manage them from your Node!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NocturneTeam/tokenmgr.git"
+  },
+  "keywords": [
+    "token",
+    "manager"
+  ],
+  "author": "L'Ange Déchu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NocturneTeam/tokenmgr/issues"
+  },
+  "homepage": "https://github.com/NocturneTeam/tokenmgr#readme"
+}
