@@ -8,8 +8,6 @@
   </a>
 </div>
 
-<hr>
-
 ## 🚀 Get started!
 
 The first step is to import the module in your node.
